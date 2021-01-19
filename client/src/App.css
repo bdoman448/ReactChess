@@ -1,0 +1,12 @@
+.App{
+  display: grid;
+  grid-template-rows: 5% auto;
+  grid-row-gap: 5px;
+}
+
+.Board {
+  margin: 0 auto;
+  display: flex;
+  margin-bottom: 5%;
+}
+

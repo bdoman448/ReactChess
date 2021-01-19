@@ -1,0 +1,29 @@
+.GameBoard{
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto 15%;
+    row-gap: 5px;
+}
+
+.BoardWrapper{
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
+
+.Popup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img[src] {
+   display: block;
+ }
+
+img {
+  display: none;
+}
